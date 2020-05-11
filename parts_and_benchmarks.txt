@@ -1,0 +1,17 @@
+Oozing/Stringing (Retraction speed/lenght; Extruder-temperature adjustments):
+https://www.thingiverse.com/thing:2737384
+
+Overhang (Filament-Cooling/Printspeed adjustments):
+https://www.thingiverse.com/thing:58218
+
+24V Blowfan for Filament-Cooling:
+https://www.thingiverse.com/thing:3907826
+
+BLTouch-Mount:
+https://www.thingiverse.com/thing:4144972
+
+Filament-Holder:
+https://www.thingiverse.com/thing:4110332
+
+Fun (Spider) Filament-Cooling testing (legs seem to be a perfect benchmark):
+https://www.thingiverse.com/thing:3742012
