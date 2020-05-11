@@ -1,0 +1,16 @@
+// Start G-Code:
+M104 S120 ; preheat extruder temperature to 120Â°C
+G28 ; home all axes
+G29 ; BLTOUCH mesh leveling
+G1 Z5 F5000 ; lift nozzle
+M109 R[first_layer_temperature] ; wait for extruder final temp 
+G1 E5 F45 ; extract 5 mm filament at speed 45
+
+
+// G-Code am Ende
+G1 E-5 F45 ;retract 5 mm filament speed 45
+M104 S0 ; turn off temperature
+M140 S0 ; turn of heat bed
+G28 X0  ; home X axis
+G1 Y300 Z20 F5000 ;
+M84     ; disable motors
